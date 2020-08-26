@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="captcha" method="upgrade">
+	<name>plg_tencentcloud_captcha</name>
+	<version>3.4.0</version>
+	<creationDate>December 2020</creationDate>
+	<author>Tencent</author>
+	<authorEmail>tencent@tencent.com</authorEmail>
+	<authorUrl>www.tencent.com</authorUrl>
+	<copyright>Copyright (C) 2020 Tencent Cloud.</copyright>
+	<license>Apache 2</license>
+	<description>腾讯云验证码提供立体、全面的人机验证。本插件已接入系统的验证码模块，开启后请前往系统后台-系统管理-全局配置-会员管理-会员选项进行具体场景的验证码配置。</description>
+	<media destination="tencentcloud_captcha" folder="media">
+		<folder>js</folder>
+	</media>
+	<files>
+		<filename plugin="tencentcloud_captcha">tencentcloud_captcha.php</filename>
+		<folder>vendor</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_captcha_tencentcloud_captcha.ini</language>
+		<language tag="en-GB">en-GB.plg_captcha_tencentcloud_captcha.sys.ini</language>
+		<language tag="zh-CN">zh-CN.plg_captcha_tencentcloud_captcha.ini</language>
+		<language tag="zh-CN">zh-CN.plg_captcha_tencentcloud_captcha.sys.ini</language>
+	</languages>
+	<scriptfile>script.php</scriptfile>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+						name="SecretId"
+						type="text"
+						label="PLG_TENCENTCLOUD_CAPTCHA_SECRET_ID"
+						description="PLG_TENCENTCLOUD_CAPTCHA_SECRET_ID_DESC"
+						default=""
+						required="true"
+						filter="string"
+						size="100"
+						class="input-xxlarge"
+				/>
+				<field
+						name="SecretKey"
+						type="text"
+						label="PLG_TENCENTCLOUD_CAPTCHA_SECRET_KEY"
+						description="PLG_TENCENTCLOUD_CAPTCHA_SECRET_KEY_DESC"
+						default=""
+						required="true"
+						filter="string"
+						size="100"
+						class="input-xxlarge"
+				/>
+
+				<field
+						name="CaptchaAppId"
+						type="text"
+						label="PLG_TENCENTCLOUD_CAPTCHA_APP_ID"
+						description="PLG_TENCENTCLOUD_CAPTCHA_APP_ID_DESC"
+						default=""
+						required="true"
+						filter="string"
+						size="100"
+						class="input-xxlarge"
+				/>
+
+				<field
+						name="CaptchaAppKey"
+						type="text"
+						label="PLG_TENCENTCLOUD_CAPTCHA_APP_KEY"
+						description="PLG_TENCENTCLOUD_CAPTCHA_APP_KEY_DESC"
+						default=""
+						required="true"
+						filter="string"
+						size="100"
+						class="input-xxlarge"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

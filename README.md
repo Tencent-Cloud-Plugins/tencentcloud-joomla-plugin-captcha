@@ -1,0 +1,1 @@
+# tencentcloud-joomla-plugin-captcha

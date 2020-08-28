@@ -32,7 +32,7 @@
 > 1. 访问[github地址](https://github.com/Tencent-Cloud-Plugins/tencentcloud-joomla-plugin-captcha)，下载zip安装包。
 > 2. 访问joomla后台页面：【扩展管理】->【扩展安装】，上传安装包即可。
 
-![](./images/Joomla/captcha1.png)
+![](./images/captcha1.png)
 
 
 
@@ -41,27 +41,27 @@
 
 ### 4.1. 页面功能介绍
 
-![](./images/Joomla/captcha2.png)
+![](./images/captcha2.png)
 > 在【扩展管理】->【插件管理】中，选择腾讯云验证码插件，配置插件需要的相关信息及选择状态为启用。  
 
 <br><br>
   
-![](./images/Joomla/captcha3.png)
+![](./images/captcha3.png)
 > 在【系统管理】->【全局配置】中，选择默认验证码为腾讯云验证码。  
 
 <br><br>
   
-![](./images/Joomla/captcha4.png)
+![](./images/captcha4.png)
 > 注册页面开启验证码效果。  
  
 <br><br>
  
-![](./images/Joomla/captcha5.png)
+![](./images/captcha5.png)
 > 找回用户名页面开启验证码效果。  
  
 <br><br>
 
-![](./images/Joomla/captcha6.png)
+![](./images/captcha6.png)
 > 找回密码开启验证码效果。  
 
 

@@ -75,4 +75,11 @@
 			</fieldset>
 		</fields>
 	</config>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Sixe Captcha Update">
+			https://github.com/Tencent-Cloud-Plugins/tencentcloud-joomla-plugin-captcha
+		</server>
+	</updateservers>
+
 </extension>
